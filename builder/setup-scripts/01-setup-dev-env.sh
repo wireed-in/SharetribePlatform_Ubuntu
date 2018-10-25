@@ -54,7 +54,7 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 echo -e "\e[1m\e[103m\e[91m   ----- Installing Ruby 2.3.4 -----   \e[0m"
 
 # Install ruby.
-rbenv install 2.3.4 --verbose
+rbenv install 2.3.4
 
 # Set 2.3.4 to a global ruby version.
 rbenv global 2.3.4
@@ -78,7 +78,7 @@ echo -e "\e[1m\e[103m\e[91m   ----- Installing node 7.8.0 & npm through n ----- 
 git clone https://github.com/tj/n.git ~/.n
 
 # Navigate to cloned directory.
-cd .n
+cd ~/.n
 
 # Make install.
 make install

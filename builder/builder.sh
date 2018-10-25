@@ -47,7 +47,6 @@ setup_beanstalk_base() {
     mkdir -p /var/app/staging
     mkdir -p /var/app/current
     mkdir -p /var/log/nginx/healthd/
-    mkdir -p /var/log/tomcat/
     apt-get -y install unzip
 }
 
